@@ -12,6 +12,7 @@ export default {
   css: {
      preprocessorOptions: {
         scss: {
+          quietDeps: true, //Silencia advertencias
           silenceDeprecations: [
             'import',
             'mixed-decls',
