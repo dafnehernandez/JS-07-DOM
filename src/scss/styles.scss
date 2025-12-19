@@ -5,16 +5,19 @@
   de los lenguajes de programación, como pueden ser variables, 
   funciones, selectores anidados, herencia, etcétera.
   https://openwebinars.net/blog/que-es-sass-ventajas-desventajas-y-ejemplos-de-desarrollo/
+
   
+
   Bootstrap usa variables de Sass, por lo que debes definirlas 
   antes de importar Bootstrap para que se apliquen correctamente.
 */
 
-$warning: #ab33de;
+$warning: #c354da;
 
-//Estandarizar estilos entre navegadores
-@import "./src/css/normalize.css";
+
+// Estandarizar estilos entre navegadores
+@import "/css/normalize.css";
+
 
 // Import all of Bootstrap’s CSS
 @import "bootstrap/scss/bootstrap";
-
